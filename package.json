@@ -1,0 +1,29 @@
+{
+  "name": "api-nfe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "3.0.0",
+    "bcryptjs": "2.4.3",
+    "dotenv": "8.2.0",
+    "jsonwebtoken": "8.5.1",
+    "koa": "2.11.0",
+    "koa-body": "4.1.1",
+    "koa-morgan": "1.0.1",
+    "koa-router": "8.0.8",
+    "mongoose": "5.9.4",
+    "mongoose-delete": "0.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.2"
+  }
+}
